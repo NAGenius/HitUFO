@@ -1,7 +1,5 @@
 # Unity小游戏——Hit UFO
 
-[toc]
-
 ## 游戏背景与设定
 
 > 游戏设定在一个充满未知与挑战的外太空环境中，玩家扮演一名太空守护者，任务是击落不断来袭的飞碟（UFO）。这些飞碟来自不同的外星文明，它们试图侵扰地球的安全，玩家需要迅速反应并准确击中这些飞碟，以保护地球免受威胁
@@ -26,9 +24,9 @@
 
 ## 效果展示
 
-![QQ20241118-132606](images\QQ20241118-132606.png)
+![QQ20241118-132606](images/QQ20241118-132606.png)
 
-![QQ20241118-132656](images\QQ20241118-132656.png)
+![QQ20241118-132656](images/QQ20241118-132656.png)
 
 > 项目地址：https://github.com/NAGenius/HitUFO
 
@@ -45,7 +43,7 @@
 - **UFO**：https://assetstore.unity.com/packages/3d/vehicles/space/ufo-battleship-289193
 - **Skybox**：https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-free-103633
 
-![QQ20241118-121721](images\QQ20241118-121721.png)![QQ20241118-121600](images\QQ20241118-121600.png)
+![QQ20241118-121721](images/QQ20241118-121721.png)![QQ20241118-121600](images/QQ20241118-121600.png)
 
 
 
@@ -53,7 +51,7 @@
 
 > 将获取的资源添加到我的资源后，可以在 Unity 项目中通过 `Window -> Package Manager` **选择性进行 import**
 
-![QQ20241118-121919](images\QQ20241118-121919.png)
+![QQ20241118-121919](images/QQ20241118-121919.png)
 
 - **UFO**：加载 `.prefab` 文件即可
 
@@ -63,7 +61,7 @@ Resources.Load("Prefabs/UFO", typeof(GameObject))
 
 - **Skybox**：将 `.mat` 文件挂载到 `Window -> Rendering -> Lighting` 上即可
 
-![QQ20241118-122530](images\QQ20241118-122530.png)
+![QQ20241118-122530](images/QQ20241118-122530.png)
 
 
 
@@ -71,7 +69,7 @@ Resources.Load("Prefabs/UFO", typeof(GameObject))
 
 > 这里给出 Controllers 部分的 UML 图，Actions、Views 部分类似
 
-![QQ20241118-124813](images\QQ20241118-124813.png)
+![QQ20241118-124813](images/QQ20241118-124813.png)
 
 
 
